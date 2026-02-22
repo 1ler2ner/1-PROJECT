@@ -1,0 +1,12 @@
+# Python venv
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code (по желанию)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
