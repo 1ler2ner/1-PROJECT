@@ -202,7 +202,7 @@ def main() -> None:
         
     # --- Проверка на дубли timestamp ---
     if df.index.duplicated().any():
-        print("⚠ ВНИМАНИЕ: обнаружены дубли timestamp (возможен переход на зимнее время)")
+        print("\033[91m⚠ ВНИМАНИЕ: обнаружены дубли timestamp (возможен переход на зимнее время)\033[0m")
     else:
         print("OK: дубликатов timestamp нет")
 
